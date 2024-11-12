@@ -400,6 +400,17 @@ width: 100%;
     
     }
 
+    .row{        
+        margin: auto !important;
+    }
+
+    .container{
+
+        padding-left: 20px !important;
+
+
+    }
+
 
 }
 
@@ -567,7 +578,6 @@ margin-left: 130px;
 
     #contact h3{
         font-size: 30px;
-        font-family: cursive;
         text-shadow: 3px 2px 4px rgb(247, 241, 217);
         margin-left: 150px;
         padding-top: 10px;
@@ -850,7 +860,6 @@ height: 560px;
  #Bestselers .row .Best-Sell h5{
     color: rgb(51, 4, 4);
     font-size:15px;
-    font-family: cursive;
     font-weight: 900;
     margin-top: 0px;
     padding-top: 0px;
@@ -941,7 +950,6 @@ background-color: rgba(61, 92, 95, 0.437);
 
 #contract .container .accordion .accordion-item p{
 color: rgb(21, 30, 54);
-font-family: cursive;
 text-align: center;
 
 } 
@@ -1151,7 +1159,6 @@ footer .container .row .Social .link :hover{
         text-shadow : 3px 2px 4px rgba(243, 202, 125, 0.07);
         padding-bottom: 0px;
         font-size: 7px;
-        font-family: cursive;
         font-weight: 800;
     }
 
