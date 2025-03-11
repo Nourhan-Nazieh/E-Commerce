@@ -148,6 +148,8 @@ font-weight: 600;
             text-shadow : 3px 2px 4px rgba(255, 234, 170, 0.93);
             font-weight: 600;
 }
+
+
 }
 
 
@@ -165,7 +167,8 @@ font-weight: 600;
     border-radius: 20px;
     bottom: 4rem;
     padding-bottom: 60px;
-    background-size: 10px;   
+    background-size: 10px;  
+     
 }
 
 .carousel-item img{
@@ -216,43 +219,42 @@ background-color: rgb(226, 220, 171)!important ;
 
 @media(max-width:750px){
 
-    /* .carousel-caption{
-        background-color:rgba(105, 88, 51, 0.407);
-        border-radius: 20px;
-        bottom: 10px;
-        padding-bottom: 10px;
-        background-size: 20px;   
+    .carousel-caption {
+        position: absolute;
+        bottom: 10%; 
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%; 
+        background: rgba(0, 0, 0, 0.315); 
+        padding: 10px;
+        border-radius: 8px;
+        
     }
- */
 
     .carousel-item img{
         width: 100%;
         height: 50%;
     }    
         
-    /* .carousel-caption button{
-        background-color: rgb(67, 66, 64);
-        border-radius: 30px;
-        font-family: sans-serif;
-        color: rgb(255, 250, 220);
-        width: 10px;
+    .carousel-caption h2 {
+        font-size: 16px; 
+        font-weight: bold;
+        color: white;
     }
 
-    .carousel-inner .carousel-caption h2{
-        color: rgb(73, 41, 14);
-        font-size: 5px;
-        margin: 0;
-        text-shadow: 3px 2px 4px rgb(15, 59, 44);
-    
-    } */
+    .carousel-caption p {
+        font-size: 13px;
+        color: white;
+    }
 
-    .carousel-indicators button{
-        width: 13px !important;
-        height: 13px !important;
-        border-radius: 50% !important;
-        background-color: rgba(29, 149, 119, 0.711)!important ;
-        }
+    .carousel-caption button {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+
+   
 }
+
 
 
 /* <!--ــــــــــــــــword-welcome ــــــــــــــــــ --> */
